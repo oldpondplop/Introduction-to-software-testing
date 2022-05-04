@@ -203,4 +203,157 @@ Test Plan Activities
     Make it a "living" document
 
 
+Why we need a good test plan
+    Organize, schedule, and manage testing effort
+    Helps in writing test cases
+    Improves communication between devs and management
+    Measuring software quality is the intent (and must be planned)
+    Developing good test sets takes planning
+    Knowing when to stop
+    More effective arguments when you have the facts
+
+Concerns of Test Planning
+    Not enough training
+    Lack of customer/user involvement
+    Not enough time
+    Rapid change
+    Lack of test tools
+    Lack of management support
+
+Test Planning is Important
+    Creating a plaan and sticking to it makes it easier
+    Ensure that everything is completed 
+    Know when to stop
+    Have facts to bolster arguments
+    Say "No" to project release if you have to
+
+
+Stages of Software Testing Process
+
+4 categories of tests:
+
+    Unit Test - WB completed by the devs
+        -Unit Test Plan
+    Design Verification Test
+        -Integration Testing
+        -Functional Testing
+        -DVT Test Plan/Test Cases
+    System Validation Test
+        -System Test (test expected behavior)
+        -Non-functional Testing(quality with wich we delivered the behavior, performance)
+    Customer Acceptance Test
+        -Customer acceptance test plan
+
+
+Test (Status) Reports
+
+Test Status Report
+    How the test cycle is going
+    Occures after each tresting cycle
+
+Test Report
+    How the entire testing effort went for a project/feature
+    Occurs at end of testing
+
+Should include:
+    Evaluate how testing went/is going
+    List what was tested
+    List what was not tested, and why
+    List still-open defects (some ask for all defects)
+    Show the actual schedule
+    Tell developers what works/doesn't
+
+Why the Test (Status) Report
+
+Two main reasons:
+    Allow management and marketing to do their jobs
+    Assist in process improvement
+
+Test (Status) Reports
+    Assessment of the current/final testing progress
+    List what was tested
+    List what wasn't tested
+    List still-open defects
+    List the schedule (actual and current)
+
+
+
+Risk-based Test Planning
+
+Importance of risk-based testing
+    One of the purposes of testing is to reduce risk
+    Determining that risk is the goal of risk-based testing
+
+Definitions associated with risk
+    Risk: Any potential loss to an org
+    Components of risk: Impact/Loss and Likelihood/Probability
+    Risk Analysis: Determining the impact and likelihood of various risks
+    Risk Equation: Risk = Impact x Likelihood
+    Risk Apetite: The amount of loss that management is willing to accept
+    Risk Migration: The act of reducing risk
+
+Nature of risk
+
+Two components
+    Impact
+    Likelihood
+
+Impact
+    Depth
+        Severity of damage
+        Availability of workarounds
+
+    Breadth
+        Number (of systems/people) affected
+        Cost of damage done
+
+Categories of impact
+    Finacnial
+    Reputation
+    Licenses
+    Customer
+    Employees
+    Lives
+
+Likelihood
+    Possible factor for likelihood of failure
+        Size of module
+        Use of new (unproven) technology
+        Prior error history
+        Lack of skill experience
+        Lack of motivation
+        Inadequate processes
+        Complex features or modules
+        New modules
+        Features transferred between developers
+        Code that has not been unit tested
+        Features using large or distributed development teams
+
+Risk Mitigation 
+    Risk avoidance
+    
+    Risk transfer (insurance, indemnification)
+    
+    Risk Management
+        Loss prevention
+        Crisis management
+        Training
+
+    ex: doing code review is a risk mitigation tech
+
+Conventional Approach to Risk-based Testing
+
+When all else fails, risk can help prioritize
+
+Impact
+    Test those features with the highest impact
+
+Likelihood
+    Test those features most likely to fail
+
+Testing is our primary means of reducing risk
+
+    Design your tests on two factors
+        What can go wrong?
+        What must go right?
 
