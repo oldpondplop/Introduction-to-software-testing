@@ -76,7 +76,7 @@ public class DemoTest {
 //        String consoleOutput="Enter side 1: \n";
 //        consoleOutput+="Enter side 2: \n";
 //        consoleOutput+="Enter side 3: \n";
-//        consoleOutput+="This is a triangle.\n";
+//        consoleOutput+="This is a triangle.\n";i
 //
 //        assertEquals(consoleOutput, out.toString());
 //    }
