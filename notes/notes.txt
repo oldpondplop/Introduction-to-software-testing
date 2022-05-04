@@ -90,3 +90,117 @@ Feedback
     Update tests to more thoroughly test areas known to be problematic
     Lear which classes of bugs are most likely
     Work with developers to reduce systematic errors
+
+V model
+
+The V-model is a type of SDLC model where process executes in a sequential manner in V-shape.
+It is also known as Verification and Validation model. 
+It is based on the association of a testing phase for each corresponding development stage. 
+Development of each step directly associated with the testing phase. 
+The next phase starts only after completion of the previous phase 
+i.e. for each development activity, there is a testing activity corresponding to it.
+
+Verification: 
+    It involves static analysis technique (review) done without executing code. 
+    It is the process of evaluation of the product development phase to find whether specified requirements meet. 
+    Answering "Are we building the product right?"
+
+Validation: 
+    It involves dynamic analysis technique (functional, non-functional), testing done by executing code.
+    Validation is the process to evaluate the software after the completion of the development phase to determine whether software meets the customer expectations and requirements.
+    Answering "Are we building the right product?"
+
+
+
+Structural Testing
+
+Black-box Testing vs White-box Testing
+BB has no access to source code
+WB has access to source code
+Structural Testing is WB
+
+Code Coverage
+We have to test ideally each line of code at least once.
+
+Why is structural testing important?
+Running every test possible is usually impossible
+
+Code Coverage Standards
+    Statement
+    Condition
+    Decision
+    Branch
+    Condition/Decision
+    Modified Condition/Decision
+    Observable Modified Condition/Decision
+
+Challenges in Structural Coverage
+    Interprocedural and gross-level coverage of large O-O programs.
+    Regression testing
+    Late biding
+
+Infeasibility Problem
+    Reaching 100% coverage is often impossible
+
+
+
+Mutation Testing
+
+Mutation Testing is a type of software testing in which certain 
+statements of the source code are changed/mutated
+to check if the test cases are able to find errors in source code. 
+The goal of Mutation Testing is ensuring the quality of test cases 
+in terms of robustness that it should fail the mutated source code.
+
+Program testing can be used to show the presence of bugs but not their absence.
+
+Mutation Operators
+    Booleans
+    off by one
+    switch variable nammes of the same type
+    change (+-><==!=)
+
+
+
+Week 3
+
+What is a test plan?
+
+Test Plan
+A document describing the scope, approach,
+resources, and schedule of intended testing activities.
+It identifies test items, the features to be tested, the
+testing tasks, who will do each task, and any risks
+requiring contingency planning.
+
+Components of a Test Plan
+
+Testing approach/strategy
+Scope (know your domain)
+Schedule (10w after the build)
+Resources/Test Environment (materials, equipment, servers, tools, qa team)
+Entry and Exit Criteria
+Requirements Matrix (for Traceability)
+What is NOT tested
+Test cases and scripts [separate docs]
+
+
+Traceability
+
+Tracing test cases to requirements
+
+Tracing  requirements to test cases
+    If a requirement changes, which test cases are affected?
+    Are all requirements getting tested?
+
+Tracing either requirements or test casses to software modules
+
+Test Plan Activities
+    Use a TP template, or design one
+    List what cannot be tested
+    Write only what you need
+    Have the TP reviewed
+    Make it a "living" document
+
+
+
