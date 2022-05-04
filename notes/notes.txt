@@ -1,0 +1,92 @@
+Week 2: Testing Principles
+
+Principles of Testing & Analysis:
+
+    What: The qulity process
+    Where: Focusing on problematic constructs and modules likely to contain bugs
+    When: Performing testing as early and often as possible
+    Who: Structuring organization for effective testing
+    How: Strategies for effective testing
+
+What: The Quality Process
+
+Quality process: set of activities and responsabilities
+    -focused primarily on ensuring adequate dependability
+    -concerned with project schedule or with product usability?
+
+The quality process provides a framework for
+    -selecting and arranging activites
+    -considering interactions and trade-offs with other important goals
+
+Quality Goals:
+
+Process qualities
+    repeatability, timeliness, cost, CI
+
+Product qualities
+    internal qualities: reusability, manageability, maintainability, modifiability
+
+    external qualities
+        -Dependability qualities: availability, correctness, reliability, safety, robustness
+        -usefulness qualities: usability, performance, security, portability, interoperability
+
+
+Where: Error-Prone Aspects
+
+Floating-point numbers
+    Inherently imprecise. The imprecision may lead to invalid comparasions
+    Sequences of computations may lose precision
+
+Pointers (C/C++)
+    Pointers refering to the wrong memory areas can corrupt data
+    Aliasing  can make programs difficult to understand and change
+
+Parallelism 
+    Can result in subtle timing errors because of unforseen interaction parallel processes
+    Can result in deadlock if synchronization is used incorrectly
+
+Numeric Limits/ Boundaries
+    very large values for integers / floats
+    Boundary values for relational expressions
+
+Interrupts
+    Interupts can cause a critical operation to be terminated and make a program difficult to understand
+    Interrupts are comparable to goto statements
+
+Complex Boolean Expressions
+    Nested Boolean operators can be difficult to understand
+
+Casts and Conversions between Types
+    Especially numeric types: can lose precision or overflow
+
+80-20 rule for module testing:
+    A small number of modules usually contain most of the defects discovered during pre-release testing.
+
+
+Testing Principles - How
+
+Divisibility: Dived and conquer
+    Scope of Tests (unit, integration, system)
+    Purpose of Tests (memory, performance)
+    Testing Techniques (depending on the purpose)
+
+Visibility
+   Observability of inputs
+   State Exposure
+   Logging
+
+Repeatability
+    We want tests to always pass or always fail
+    Tests that sometimes fail are called "flakey tests"
+    Could be: bad test, bad program, bad environment
+    //if the test requires external dependencies (ex: databases, filesystems),
+    //we want to make sure that the state of db is in consistent state
+
+Redundancy
+    Most verification methods are unsound: they miss errors
+
+Feedback
+    Different apps have different "pain points"
+    Update tests to more thoroughly test areas known to be problematic
+    Lear which classes of bugs are most likely
+    Work with developers to reduce systematic errors
