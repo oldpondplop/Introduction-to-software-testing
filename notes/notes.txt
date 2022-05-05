@@ -532,3 +532,32 @@ Supporting information
     A flash drive with data or files
     Trace files, error logs, etc.
 
+
+
+Software Defect Reports: Track, Retest, and Close
+
+Tracking a defect
+    Have a process
+    Handled, primarily, by the Defect Review Board
+    Include lead tester (if not all testers) on the Board
+    Ensure progress is made on defects
+
+Retestring the Defect
+    Retest can have 3 outcomes
+        1.Problem has indeed been fixed
+        2.Problem remains (unchanged)
+        3.Problem is replaced by a new problem
+    Note: these are NOT mutually exclusive!
+
+Close a Defect
+    Add Tester or Verfication Notes
+    Make sure anyone else with a vested interest can also retest
+    Close it (or recommend closure)
+
+Following defect report process is about quality
+    Testers must take care at each step
+    Anyone can enter a defect
+    Haviung a review board helps ensure quality of the process
+    Board should review as often as necessary
+
+
