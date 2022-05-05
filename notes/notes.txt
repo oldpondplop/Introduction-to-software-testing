@@ -391,3 +391,20 @@ Software Defect Reports
     Analyze, Report, Track, Retest, Close
 
 
+
+Software Defect Reports: Analysis
+
+Analysis of a software defect
+    Find the root-cause
+    Determine if it is reproductible or repeatable
+    Attempt to isolate the defect
+    Investigate alternative paths to the issue
+    Decide if it is worth reporting (formally)
+
+Analyzing software defect reports ensures proper prioritization
+    Not all defects are created equal
+    Determine the caouse of the defect
+    Additional information on how it can be isolated is valuable
+    Report those defects which are important in the context
+
+
