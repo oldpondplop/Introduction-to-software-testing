@@ -357,3 +357,37 @@ Testing is our primary means of reducing risk
         What can go wrong?
         What must go right?
 
+
+Sofware Defect Reports: Overview
+
+Two key understandings
+    
+    Fixing errors, not just find them, is a purpose of testing
+
+    Understanding the life cycle and components of the defect report
+    aids in communication between development and testing
+
+
+Purpose of Software Defect Reporting:
+
+To ensure reliable and fast elimination of failures detected by the
+various test levels, a well-functioning procedure for communicating and managing those incident reports is needed. 
+
+
+Software Defect Report Process
+    
+    (1) Analyze bug to ensure proper reporting, (2) Make report,
+    (3) Track status of the fix, (4) Retest bug, (5) Close bug when problem is fixed.
+    
+    Analyze
+    Report
+    Track
+    Retest
+    Close
+
+Software Defect Reports
+    A defect by any name should follow this lifecycle
+    Process designed to facilitate communication and fixing of defects
+    Analyze, Report, Track, Retest, Close
+
+
