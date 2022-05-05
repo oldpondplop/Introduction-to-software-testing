@@ -408,3 +408,29 @@ Analyzing software defect reports ensures proper prioritization
     Report those defects which are important in the context
 
 
+Software Defect Reports: Reporting
+
+Reporting the software defect
+    Ensure it is not a duplicate
+    Talk with the developer
+    Enter it into the system
+    Make sure it gets fixed
+
+Characteristics of an effective defect report
+    Numbered (or ID'd)
+    Simple
+    Writtren
+    Complete
+    Understandable
+    Explains the problem
+    Includes minimum number of steps to reproduce
+
+Reporting software defects is mostly common sense
+    Lots of stakeholders are interested in what is currently
+    (or historically) wrong in the system
+
+    Be as concise as you can be
+    Provides a consisstent means of communicating defects
+    Modify these componets in your template as you see fit
+
+
