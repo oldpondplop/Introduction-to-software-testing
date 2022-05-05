@@ -434,3 +434,101 @@ Reporting software defects is mostly common sense
     Modify these componets in your template as you see fit
 
 
+
+Software Defect Reports: Report Content
+
+Components of a software defect report
+    Idenntifying information
+    Description of the problem
+    Various status indicators
+    Comments
+    Miscellaneous information
+    Supporting information
+
+Identifying information
+    Unique ID
+    Submitter
+    Submit date
+    Program or product this is against
+    Verison or revision of the product
+
+Description of the problem
+    Title
+        Must convey in a limited number of words enough information that
+        the problem can be understood
+        Any abbreviations must be generally acknowledged or explained in
+        the Description
+        Ex: "ACM: No error message when 'Print on Error' is on"
+    
+    Description
+        The problem itself
+            What did happen (actual reports)
+            What should have happened (expected results)
+            Ex: "I left the final delimiter record out and reports got produced.
+            I expected an error message and no reports."
+    
+    Test case used
+    
+    Any other helpful info whatsoever
+        In particular, name any attachments
+
+    Keep it to 3 or 4 senteces if you can
+    
+    Avoid vague or confusing terms ("frequently", "sometimes")
+    Avoind uncommon abbr
+    Use any standard terminology
+    Pay attention to spelling and grammar
+
+Various status indicators
+    Overall report status (open/closed)
+    Severity and priority
+        Severity: How bad is it? (Generally related to the defect's effort on testing)
+            High -- critical defect; test cannot continue
+            Medium -- critical defect; test can continue with a workaround
+            Low -- it;s a problem but we can esentially ignore it
+            Trivial -- documentation, help files, spelling mistakes
+            
+        Priority: How urgent is it? (When does this have to be fixed?)
+            
+    Current resolution status
+        None [this is what the board searches on]
+        In Process/Assigned
+        Fixed ("pre-build" for an app defect)
+        Ready for Test ("post-build"; not used for a defect in the Test Suite itself)
+        Retest
+            For a typical defect, these 5 are all we need, plus 'Closed'
+            [and the overall 'Closed']
+    
+    Final exaples of resolution status
+        Not repeatable
+        Not a problem
+        Do not fix
+        Duplicate
+        Deferred
+
+Comments
+    Analysis Notes
+    Resolution Notes
+    Tester Notes
+    Modification Notes
+    Verification Notes
+    Whatever-works-for-you Notes
+
+Miscellaneous information
+    Steps to reproduce
+        Include setup information
+        Anyone with the appropriate setup should be able to reproduce the problem
+        Could be as simple as a Test Case ID, or as complex as a lenghty procedure
+        Pay attention to problems that are merely repeatable and not reproductible
+    Fields
+        Environment, Target Release, Closed Release, Closed date, Owner, Tester,
+        Discovered by/in, Defect type/Root cause, Software component, fix hours
+        Test hours, Workarounds
+
+Supporting information
+    Error printouts
+    Screen shots
+    The test case itself
+    A flash drive with data or files
+    Trace files, error logs, etc.
+
