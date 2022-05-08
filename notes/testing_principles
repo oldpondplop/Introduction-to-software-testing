@@ -1,0 +1,207 @@
+I. ISTQB Foundation (Testing Principles & Testing Process)
+
+
+Testing Principles:
+
+	1. The absence of proof is not the proof of absence.
+	2. Exhaustive testing is impossible (focus on risks and priorities)
+	3. Early testing (testing at late stages is expensive)
+	4. Defect clustering (80% of defects can be found in 20% of code)
+	5. Pesticide paradox (do not repeat testing)
+	6. Testing depends on context (medical/automotive/web industries are tested differently)
+	7. Absence of errors fallacy (even if you do not have deffects, user and usability are the main goal)
+
+Testing Process:
+	
+	1. Planning and control
+		-Determine the risks (what we testing and why)
+		-Determine the test approach (understand the test requirements and how to perform the test)
+		-Determine the resources
+		-Exit criteria (when to stop testing)
+
+	2. Analysis and design of tests;
+		-analysis - what to test; design - how to test
+	3.Implementation and execution of tests
+		-conversion of test conditions towards test cases and procedures
+		-run the tests and compare expected and actual results
+	4.Evaluation of the exit criteria and production of test reports
+		-test execution is assessed againts the defined objectives (confirm we have done enough testing)
+	5.Test closure activities
+		-collect the data from the completed tests and analyze the facts and numbers (reporting)
+
+II. Testing Throughout the software development lifecycle ()
+
+
+Whichever SDLC is chosen, we perform verification(requirements) andvalidation(user needs)
+
+Software development life cycles (SDLCs):
+
+SDLC categories:
+
+	-sequential models (cascade)
+	-iterative dev models (iterate untill quality is reached/ uses regresion testing)
+	-incremental model (can combine previous two)
+
+Agile manifesto:
+	-individuals and interactions over processes and tools
+	-working software over comprehensive documentation
+	-customer collaboration over contract negotiation
+	-responding the change over following the plan
+
+Scrum methodology (use the short time bound dev cycles called sprints)
+	-it's based on spprints (each sprint starts and ends with the team meating)
+	-actions are planned and kept in a "backlog"
+	-actions are prioritized according to owner-defined priorities.
+	-daily meetings alows to set priorities and manage the team efforts
+	-small teams (5-9)
+
+Whichever development model is selected, a number of design activities are
+executed: creation of components, integration of these components together, then –
+when all components have been integrated – it is necessary to ensure that the system
+works properly in end-to-end operation, and that the system is accepted by the users,
+so that it can be delivered to the market.
+
+Test Levels:
+	1. Component testing (unit tests)
+		-searches for defects in modules that are separately testable
+		-uses stubs and drivers to replace the missing software
+	2. Integration testing
+		-detect failures in the interfaces and excanges between components
+		-big bang integfration(uses thhe whole system, a lot of errors, hard to debug)
+		-Bottom-up & Top-down (uses drivers & stubs)
+	3. System testing
+		-behaivior and compability of the whole system
+	4. Acceptance testing
+		-obtain customer or user acceptance of the software
+
+
+Types of tests:
+	
+	-instructions and branches (component test)
+	-pieces of software (integraton test)
+	-sub-systems (system test and acceptance test)
+
+ISO 9125 quality model: functionality, reliability usability, efficiency, maintainability, and
+portability
+
+Funnctional Tests (executed at all levels): 
+	- what is the software doing
+	- focus on the functions of the software, what they do, the services provided,
+	and the requirements covered
+	- Suitability, Accuracy, Interoperability, Security, Functional complience
+	- are speicified in requirements, ex: ability to create bank accounts,
+	deposit or withdraw cash.
+
+Non-functional tests (executed at all levels):
+	-how well is the software doing?
+	-focus on the way the services are provided.
+	-reliability, usability, efficiency, maintainabity, portability
+	-load, stress tests, performance tests
+	-response time, network bandwit.
+
+White box testing:
+	-based on the structure of the software (internal code).
+	-at the component level, they focus on instructions, branches, and conditions in the code
+	-usually done at the unit level
+	-measure the code coverage
+
+Black box testing:
+	-functionality of software is not known.
+	-software does what is supposed to do
+	
+
+Tests associeted with changes:
+
+Regression testing vs Confirmation testing(retesting):
+
+Confirmation testing is done after new release or after a bug fixed (to check if it is ok)
+Regression testing is done repeatedly to make sure that new functionalities didn't break the code.
+
+Test and maintenance:
+	-make sure that all areas that are changed are correctly changed and that all areas that are not changed are not changed, either in content or in terms of supported functionalities
+
+
+III. Static Testing
+
+
+Dynamic Techniques:
+	-requires functioning system or software
+	-expensive
+	-run test & analyse results
+	-identifies failures
+
+Static Techniques:
+	-do not require the application of a functioning system or software
+	-cheaper 
+	-reviews, wheter formal or informal
+	-static analysis, with or without tools
+	-revuew software code and requirements
+	-evalutation by a team (there is a change of info between team mebers which is good)
+	-identifies defects
+
+
+Review Process:
+
+Objectives:
+	-verification of compliamce with the higher-level docs (requiremets, specs, contract)
+	-verification with regards to project docs at the same lvl (test case, specs, data, source code...)
+	-verification with regards to standads and norms, best practices (for review and static analysis)
+	-verification with regards to usage and fitness for use, such as to design more detailed components
+
+Types of reviews:
+
+	– management reviews;
+	– technical reviews;
+	– inspections1;
+	– walk-throughs and
+	– audits.
+
+Roles and responsabilities:
+	-Moderator
+	-Author
+	-Scribe
+	-Reviewers
+	-Manager
+
+Phases of reviews:
+	-planning
+	-kick off
+	-individual preparation
+	-examination/evaluation/recording of results
+	-rework
+	-follow up
+
+
+Review techniques:
+	-ad hoc
+	-checklist-based
+	-scenarios and dry runs
+	-perspective-based
+	-role-based
+
+Static analysis tools:
+	-complexity analysis
+	-coding standards
+	-data flow analysis (ensure vars are correctly used)
+
+IV. Test Design Techniques
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

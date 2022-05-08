@@ -561,3 +561,47 @@ Following defect report process is about quality
     Board should review as often as necessary
 
 
+
+
+Week 4
+
+Test Doubles: Introduction
+
+    Test Doubles are lightweight versions of components that are necessary to test some class or system usually designated the SUT (System Under Test).
+
+Why create Test Doubles?
+    The real components are not yet finished.
+    It is computationally expensive to construct the real components
+    The real components are owned by someone else
+    You want to avoid side effects on real components as a result of testing
+    Test doubles help prevent Flakey Tests: tests that work sometimes but not all the time
+    Test doubles allow finer-grained observation of the system under test.
+
+Test Doubles Provide The Ecosystem
+
+    Dummy Objects 'fill in' objects required by the system under test (SUT) that
+    are otherwise irrelevant for the test.
+
+    Test Stubs provide 'dummy' input data sources used by the SUT
+
+    Fake Objects are lightweight implementations of 'heavyweight' processes like databases
+
+    Mock Objects check indirect results produced by the SUT (near)-synonym: Spy Objects
+    
+    Dummy Objects, Test Stubs, Fake Objects - Provide Test Inputs
+    Mock Objects- Monitor Test Outputs
+
+Making it Concrete: Mockito
+
+    Mockito is a popular framework for creating test doubles in Java
+    
+    It integrates well with JUnit for constructing unit test cases
+    
+    It supports all the different kinds of test doubles
+    
+    Goal is to be able to mock away dependencies for unit test and 
+    inspect interactions between SUT and mocks
+
+
+
+

@@ -17,9 +17,12 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.junit.jupiter:junit-jupiter:5.8.1'
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+
+    //Use Mockito
+    testCompile 'org.mockito:mockito-core:2.+'
+
 }
 
