@@ -17,6 +17,7 @@ repositories {
 }
 
 dependencies {
+    api 'org.apache.commons:commons-lang3:3.6'
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'

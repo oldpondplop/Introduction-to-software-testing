@@ -604,4 +604,11 @@ Making it Concrete: Mockito
 
 
 
+Test Doubles: Input
 
+Dummy Objects, Test Stubs, Fake Objects - Provide Test Inputs
+
+Mock Objects - Monitor Test Outputs
+
+
+ 
